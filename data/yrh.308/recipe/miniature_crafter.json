@@ -1,0 +1,35 @@
+{
+    "type": "crafting_shaped",
+    "category": "building",
+    "pattern": [
+        "DPD",
+        "QCQ",
+        "QRQ"
+    ],
+    "key": {
+        "D": "diamond",
+        "P":"piston",
+        "Q": "quartz",
+        "C": "crafting_table",
+        "R": "redstone"
+    },
+    "result": {
+        "id": "item_frame",
+        "components": {
+            "item_name": "ミニチュアクラフター",
+            "item_model": "crafter",
+            "enchantment_glint_override": true,
+            "entity_data": {
+                "id": "item_frame",
+                "Tags": [
+                    "yrh.308.MiniatureCrafter",
+                    "yrh.308.Unset"
+                ],
+                "Silent": true,
+                "Invulnerable": true,
+                "Fixed": true
+            }
+        },
+        "count":1
+    }
+}
